@@ -94,7 +94,7 @@ class VisionAgent:
         )
         return result
 
-vision_agent = VisionAgent(api_key="SuL5NoGurRtFwpcuGRug")
+vision_agent = VisionAgent(api_key="YOUR API KEY")
 
 result = vision_agent.infer("/content/drive/MyDrive/AI School Projects/Pneumonia LLM/person819_bacteria_2730.jpeg")
 print(json.dumps(result, indent=2))
